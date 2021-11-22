@@ -4,7 +4,13 @@
 
 //Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
 
-function circleCalculation () {
-	//your code here
+function circleCalculation (radius) {
 
-circleCalculation(10);
+	let area = Math.round(Math.PI * Math.pow(radius, 2));
+	let perimeter = Math.round(Math.PI * (2 * radius));
+	let sentence = "The area of the circle is " + area + " and the perimeter of the circle is " + perimeter + ".";
+
+return sentence;
+}
+
+console.log(circleCalculation(10));
