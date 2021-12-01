@@ -34,6 +34,12 @@ console.log(result) // "ghimmnorstyy"
 **/
 
 function alphabetSoup(str) {
-	//Your code here
-	
+	//Your code herefunction alphabetSoup(str) { 
+ 
+
+return(str).split("").sort().join("").trim("");
+         
 }
+console.log(alphabetSoup("happy"));
+alert(alphabetSoup(" be happy"));
+	
