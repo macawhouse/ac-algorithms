@@ -20,7 +20,7 @@
 
 
 function findLongestWord(str) {
-  function findLongestWord(str) {
+  
     let words = str.split(' ');
     let longestWord = " ";
     for (let i = 0; i < words.length; i++) {
@@ -32,4 +32,3 @@ function findLongestWord(str) {
   console.log(longestWord);
   
   findLongestWord("The quick brown fox jumped over the lazy dog");
-}
