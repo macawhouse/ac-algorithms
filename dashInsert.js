@@ -25,6 +25,27 @@ console.log(result) // "1-3"
 
 **/
 
-function dashInsert(str) {
-	// Your code
-}
+// variable to store number as a string  .toString()
+// variable to store string as an array with "delimiter" .split("")
+// for loop
+// conditional statement
+// return
+// var to store result and call function
+function dashInsert(num) {
+	let numArr = num.toString().split("");
+	let numString = "";
+	for (let i = 0; i < numArr.length; i++) {
+	  if (numArr[i] % 2 === 1 && numArr[i+1] % 2 === 1) {
+		  numString += numArr[i] + "-";
+  
+	   } else {
+			numString += numArr[i];
+	 }
+	}
+	return numString;
+  
+  }
+  
+	  
+  var result = dashInsert("454793");
+  console.log(result);
