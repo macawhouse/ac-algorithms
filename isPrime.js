@@ -32,5 +32,10 @@ console.log(result) // false
 **/
 
 function isPrime(num) {
-	// Your code
-}
+
+
+
+place to store variable
+for l}
+	
+	

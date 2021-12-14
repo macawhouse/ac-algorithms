@@ -22,5 +22,11 @@ care of it.
 */
 
 function getPrimes() {
-	// your code
+	
+  for ( let i=2; i < num; i++)
+  if (num % i ===0) return false;
+return num>1;
 }
+var result = isPrime();
+console.log(result);
+

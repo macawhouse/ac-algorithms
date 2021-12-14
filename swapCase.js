@@ -28,7 +28,21 @@ var result = swapCase("Oh, Hello!!");
 console.log(result) // "oH, hELLO!!"
 
 **/
+// string is the imput
+// output lower case and upper case 
 
-function swapCase(str) {
-	// Your code
+function swapCase(letters){
+    let newLetters = "";
+    for(let i = 0; i<letters.length; i++){
+        if(letters[i] === letters[i].toLowerCase()){
+            newLetters += letters[i].toUpperCase();
+        }else {
+            newLetters += letters[i].toLowerCase();
+        }
+    }
+    console.log(newLetters);
+    return newLetters;
 }
+
+
+console.log(swapCase("Hello World!"));
